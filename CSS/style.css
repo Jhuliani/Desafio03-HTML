@@ -1,7 +1,4 @@
-body{
-    color:darkgray ;
-    background-color: black;
-}
+
 header img {
     width: 300px;
     height: 250px;
@@ -10,13 +7,13 @@ header img {
     
 }
 p{
-    color: darkgray;
+    color: rgb(78, 75, 75);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
 }
 
 h1{
-    color:darkgray;
+    color:rgb(78, 75, 75);
     text-align: center;
     font-family:Arial;
     font-size: 28pt;
@@ -46,4 +43,26 @@ main{
 main a{
     margin: 20px;
     text-align: center;
+}
+
+.gradient{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height: 97vh;
+    width: 90vw;
+    background:linear-gradient(45deg,#6495ED,#48D1CC,#F08080,#F0E68C);
+    background-size: 100% 100%;
+    animation: colors 20s ease infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
