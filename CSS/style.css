@@ -1,0 +1,49 @@
+body{
+    color:darkgray ;
+    background-color: black;
+}
+header img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20%;
+    border: 5px solid #a5b2b4;
+    
+}
+p{
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+h1{
+    color:darkgray;
+    text-align: center;
+    font-family:Arial;
+    font-size: 28pt;
+}
+
+.center{
+    text-align: center;
+}
+
+main img{
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+main p:hover{
+    color: darkcyan;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main a{
+    margin: 20px;
+    text-align: center;
+}
